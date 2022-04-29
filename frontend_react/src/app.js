@@ -2,9 +2,10 @@ import React from 'react'
 
 import { About, Footer, Header, Skills, Testimonials, Work } from './container';
 import { Navbar } from "./components";
+import './App.scss'
 
 
-const app = () => {
+const App = () => {
   return (
     <div className='app'>
       <Navbar />
@@ -19,4 +20,4 @@ const app = () => {
   )
 }
 
-export default app;
+export default App;
